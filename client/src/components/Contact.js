@@ -1,5 +1,4 @@
 import React from 'react';
-import resume from '../Resume-9-16-2018.pdf'
 
 
 const Contact = () => {

@@ -3,7 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
 
-const items = require('./routes/api/items');
+// const items = require('./routes/api/items');
 
 const app = express();
 
@@ -27,10 +27,10 @@ app.use(bodyParser.json());
 
 
 //Use favicon
-//app.use('/favicon.ico', express.static('client/public/favicon.ico'));
+app.use('/favicon.ico', express.static('client/public/favicon.ico'));
 
 //Use routes
-app.use('/api/items', items);
+// app.use('/api/items', items);
 
 //Serve static assets if in production
 if (process.env.NODE_ENV === 'production') {

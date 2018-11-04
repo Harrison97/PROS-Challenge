@@ -31,30 +31,7 @@ class AppNavbar extends Component {
 
               <Nav navbar>
               
-                <NavItem>
-                  <NavLink href="/bmicalc">BMI Calculator</NavLink>
-                </NavItem>
-
-                <NavItem>
-                  <NavLink href="/caloriecalc">Calorie Calculator</NavLink>
-                </NavItem>
-
-                {/* <NavItem>
-                  <NavLink href="/bfcalc">Body Fat Calculator</NavLink>
-                </NavItem> */}
-
-                {/* <NavItem>
-                <NavLink href="#">Meal Planner</NavLink>
-              </NavItem> */}
-
-                {/* <NavItem>
-                  <NavLink href="/ShoppingList">Shopping List</NavLink>
-                </NavItem> */}
-
-                <NavItem>
-                  <NavLink href="/Contact">Contact</NavLink>
-                </NavItem>
-
+    
                 <NavItem>
                   <NavLink href="/About">About</NavLink>
                 </NavItem>
